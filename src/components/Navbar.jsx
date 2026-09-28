@@ -4,12 +4,12 @@ function Navbar() {
   return (
     <header className="site-header">
       <div className="container nav-shell">
-        <a href="#home" className="brand" aria-label="CloudWiki home">
+        <a href="#home" className="brand" aria-label="Inicio de CloudWiki">
           <span className="brand-mark">C</span>
           <span>CloudWiki</span>
         </a>
 
-        <nav className="main-nav" aria-label="Main navigation">
+        <nav className="main-nav" aria-label="Navegación principal">
           {navItems.map((item) => (
             <a key={item.label} href={item.href}>
               {item.label}
@@ -18,7 +18,7 @@ function Navbar() {
         </nav>
 
         <button type="button" className="primary-button nav-button">
-          Explore Wiki
+          Explorar wiki
         </button>
       </div>
     </header>

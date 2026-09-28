@@ -9,10 +9,10 @@ function Footer() {
             <span className="brand-mark">C</span>
             <span>CloudWiki</span>
           </a>
-          <p>A simple educational wiki about Cloud Computing.</p>
+          <p>Una wiki educativa sencilla sobre la computación en la nube.</p>
         </div>
 
-        <div className="footer-links" aria-label="Footer navigation">
+        <div className="footer-links" aria-label="Navegación del pie de página">
           {navItems.map((item) => (
             <a key={item.label} href={item.href}>
               {item.label}
@@ -23,7 +23,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <div className="container">
-          <p>© 2026 CloudWiki. All rights reserved.</p>
+          <p>© 2026 CloudWiki. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

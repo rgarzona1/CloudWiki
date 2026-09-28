@@ -3,39 +3,39 @@ function Hero() {
     <section className="hero-section" id="home">
       <div className="container hero-shell">
         <div className="hero-copy">
-          <span className="eyebrow">Cloud knowledge hub</span>
-          <h1>Cloud Computing, Simplified.</h1>
+          <span className="eyebrow">Centro de conocimiento cloud</span>
+          <h1>Computación en la nube, simplificada.</h1>
           <p>
-            Explore the concepts, technologies, services and platforms that power
-            modern cloud computing.
+            Explora los conceptos, tecnologías, servicios y plataformas que impulsan
+            la computación en la nube moderna.
           </p>
 
           <div className="hero-actions">
             <button type="button" className="primary-button">
-              Explore the Wiki
+              Explorar la wiki
             </button>
             <button type="button" className="secondary-button">
-              Learn the Basics
+              Aprender lo básico
             </button>
           </div>
 
-          <ul className="hero-stats" aria-label="Cloud key facts">
+          <ul className="hero-stats" aria-label="Datos clave de la nube">
             <li>
               <strong>100+</strong>
-              <span>Concepts</span>
+              <span>Conceptos</span>
             </li>
             <li>
               <strong>3</strong>
-              <span>Core models</span>
+              <span>Modelos clave</span>
             </li>
             <li>
               <strong>24/7</strong>
-              <span>Global access</span>
+              <span>Acceso global</span>
             </li>
           </ul>
         </div>
 
-        <div className="hero-visual" aria-label="Abstract cloud infrastructure illustration">
+        <div className="hero-visual" aria-label="Ilustración abstracta de infraestructura en la nube">
           <div className="cloud cloud-back" />
           <div className="cloud cloud-front" />
           <div className="node node-1" />

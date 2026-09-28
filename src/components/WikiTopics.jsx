@@ -5,8 +5,8 @@ function WikiTopics() {
     <section className="content-section" id="resources">
       <div className="container">
         <div className="section-heading centered">
-          <span className="eyebrow">Learn more</span>
-          <h2>Explore Topics</h2>
+          <span className="eyebrow">Aprende más</span>
+          <h2>Explora temas</h2>
         </div>
 
         <div className="topic-grid">
@@ -14,8 +14,8 @@ function WikiTopics() {
             <article key={topic.title} className="topic-card">
               <h3>{topic.title}</h3>
               <p>{topic.description}</p>
-              <a href="#" aria-label={`Learn more about ${topic.title}`}>
-                Learn more <span aria-hidden="true">→</span>
+              <a href="#" aria-label={`Aprender más sobre ${topic.title}`}>
+                Aprender más <span aria-hidden="true">→</span>
               </a>
             </article>
           ))}

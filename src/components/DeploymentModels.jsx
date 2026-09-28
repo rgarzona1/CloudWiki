@@ -5,8 +5,8 @@ function DeploymentModels() {
     <section className="content-section">
       <div className="container">
         <div className="section-heading centered">
-          <span className="eyebrow">Deployment options</span>
-          <h2>Cloud Deployment Models</h2>
+          <span className="eyebrow">Opciones de despliegue</span>
+          <h2>Modelos de despliegue en la nube</h2>
         </div>
 
         <div className="card-grid four-up">

@@ -1,61 +1,61 @@
 export const navItems = [
-  { label: 'Home', href: '#home' },
-  { label: 'Concepts', href: '#concepts' },
-  { label: 'Services', href: '#services' },
-  { label: 'Providers', href: '#providers' },
-  { label: 'Resources', href: '#resources' },
+  { label: 'Inicio', href: '#home' },
+  { label: 'Conceptos', href: '#concepts' },
+  { label: 'Servicios', href: '#services' },
+  { label: 'Proveedores', href: '#providers' },
+  { label: 'Recursos', href: '#resources' },
 ]
 
 export const introCards = [
-  { title: 'Compute', text: 'Virtual machines and processing power delivered on demand.' },
-  { title: 'Storage', text: 'Scalable data storage for files, backups, and application data.' },
-  { title: 'Networking', text: 'Secure connections, routing, load balancing, and traffic control.' },
-  { title: 'Databases', text: 'Managed database services for structured and unstructured data.' },
+  { title: 'Cómputo', text: 'Máquinas virtuales y potencia de procesamiento entregadas bajo demanda.' },
+  { title: 'Almacenamiento', text: 'Almacenamiento de datos escalable para archivos, copias de seguridad y aplicaciones.' },
+  { title: 'Redes', text: 'Conexiones seguras, enrutamiento, equilibrio de carga y control del tráfico.' },
+  { title: 'Bases de datos', text: 'Servicios gestionados de bases de datos para datos estructurados y no estructurados.' },
 ]
 
 export const serviceModels = [
   {
     title: 'IaaS',
-    subtitle: 'Infrastructure as a Service',
+    subtitle: 'Infraestructura como servicio',
     description:
-      'Users rent virtual machines, storage, and networking resources without managing physical hardware.',
+      'Los usuarios alquilan máquinas virtuales, almacenamiento y recursos de red sin gestionar el hardware físico.',
   },
   {
     title: 'PaaS',
-    subtitle: 'Platform as a Service',
+    subtitle: 'Plataforma como servicio',
     description:
-      'Developers deploy applications on managed platforms while the provider handles the underlying infrastructure.',
+      'Los desarrolladores implementan aplicaciones en plataformas gestionadas mientras el proveedor administra la infraestructura subyacente.',
   },
   {
     title: 'SaaS',
-    subtitle: 'Software as a Service',
+    subtitle: 'Software como servicio',
     description:
-      'Applications are delivered over the internet, allowing users to access software without installation or maintenance.',
+      'Las aplicaciones se entregan a través de internet para que los usuarios accedan al software sin instalación ni mantenimiento.',
   },
 ]
 
 export const deploymentModels = [
-  { title: 'Public Cloud', icon: '☁️', description: 'Shared cloud resources provided over the internet for scalability and cost efficiency.' },
-  { title: 'Private Cloud', icon: '🔒', description: 'Dedicated cloud infrastructure used by a single organization for stronger control and privacy.' },
-  { title: 'Hybrid Cloud', icon: '🔄', description: 'A mix of public and private environments that balances flexibility and governance.' },
-  { title: 'Multi-Cloud', icon: '🌐', description: 'Multiple cloud providers are used together to reduce risk and improve resilience.' },
+  { title: 'Nube pública', icon: '☁️', description: 'Recursos compartidos en la nube ofrecidos a través de internet para mayor escalabilidad y eficiencia de costos.' },
+  { title: 'Nube privada', icon: '🔒', description: 'Infraestructura dedicada usada por una sola organización para un mayor control y privacidad.' },
+  { title: 'Nube híbrida', icon: '🔄', description: 'Una combinación de entornos públicos y privados que equilibra flexibilidad y gobernanza.' },
+  { title: 'Multinube', icon: '🌐', description: 'Se usan varios proveedores de nube para reducir riesgos y mejorar la resiliencia.' },
 ]
 
 export const providers = [
-  { name: 'AWS', description: 'A broad portfolio of compute, storage, networking, and managed services.' },
-  { name: 'Microsoft Azure', description: 'Enterprise-focused cloud services, data platforms, and integrated developer tools.' },
-  { name: 'Google Cloud', description: 'Data, analytics, AI, and container-first cloud solutions for modern workloads.' },
+  { name: 'AWS', description: 'Un amplio portafolio de servicios de cómputo, almacenamiento, redes y gestión.' },
+  { name: 'Microsoft Azure', description: 'Servicios en la nube enfocados en empresas, plataformas de datos y herramientas de desarrollo integradas.' },
+  { name: 'Google Cloud', description: 'Soluciones en datos, analítica, IA y contenedores para cargas de trabajo modernas.' },
 ]
 
 export const wikiTopics = [
-  { title: 'Virtualization', description: 'Abstracting hardware into virtual resources that can be shared and scaled efficiently.' },
-  { title: 'Containers', description: 'Lightweight packages that bundle code and dependencies for consistent deployment.' },
-  { title: 'Kubernetes', description: 'An orchestration platform for automating container deployment, scaling, and management.' },
-  { title: 'Serverless', description: 'Runs application logic in response to events without managing servers directly.' },
-  { title: 'Cloud Security', description: 'Protecting workloads, identities, data, and networks through policies and controls.' },
-  { title: 'Cloud Storage', description: 'Durable and scalable storage for files, backups, media, and structured datasets.' },
-  { title: 'Cloud Networking', description: 'Connecting services, subnets, endpoints, and traffic flows across cloud environments.' },
-  { title: 'DevOps', description: 'Combines automation, CI/CD, and collaboration to deliver software faster and more reliably.' },
-  { title: 'Cloud Databases', description: 'Managed database systems designed to scale with application demand and reliability needs.' },
-  { title: 'Cloud Architecture', description: 'Designing distributed systems that balance performance, cost, security, and resilience.' },
+  { title: 'Virtualización', description: 'Abstrae el hardware en recursos virtuales que pueden compartirse y escalarse de forma eficiente.' },
+  { title: 'Contenedores', description: 'Paquetes ligeros que incluyen código y dependencias para un despliegue consistente.' },
+  { title: 'Kubernetes', description: 'Una plataforma de orquestación para automatizar despliegues, escalado y gestión de contenedores.' },
+  { title: 'Sin servidor', description: 'Ejecuta lógica de aplicaciones en respuesta a eventos sin gestionar servidores directamente.' },
+  { title: 'Seguridad en la nube', description: 'Protege cargas de trabajo, identidades, datos y redes mediante políticas y controles.' },
+  { title: 'Almacenamiento en la nube', description: 'Almacenamiento duradero y escalable para archivos, copias de seguridad y conjuntos de datos.' },
+  { title: 'Redes en la nube', description: 'Conecta servicios, subredes, puntos finales y flujos de tráfico entre entornos cloud.' },
+  { title: 'DevOps', description: 'Combina automatización, CI/CD y colaboración para entregar software más rápido y confiable.' },
+  { title: 'Bases de datos en la nube', description: 'Sistemas gestionados diseñados para escalar según la demanda y la necesidad de confiabilidad.' },
+  { title: 'Arquitectura en la nube', description: 'Diseña sistemas distribuidos que equilibran rendimiento, costo, seguridad y resiliencia.' },
 ]

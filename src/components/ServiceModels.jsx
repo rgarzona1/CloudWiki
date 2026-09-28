@@ -5,8 +5,8 @@ function ServiceModels() {
     <section className="content-section alt-section" id="services">
       <div className="container">
         <div className="section-heading centered">
-          <span className="eyebrow">Service models</span>
-          <h2>Cloud Service Models</h2>
+          <span className="eyebrow">Modelos de servicio</span>
+          <h2>Modelos de servicio en la nube</h2>
         </div>
 
         <div className="card-grid three-up">

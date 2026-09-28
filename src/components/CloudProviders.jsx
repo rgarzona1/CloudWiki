@@ -5,8 +5,8 @@ function CloudProviders() {
     <section className="content-section alt-section" id="providers">
       <div className="container">
         <div className="section-heading centered">
-          <span className="eyebrow">Platform examples</span>
-          <h2>Major Cloud Providers</h2>
+          <span className="eyebrow">Ejemplos de plataformas</span>
+          <h2>Principales proveedores de nube</h2>
         </div>
 
         <div className="card-grid three-up provider-grid">
