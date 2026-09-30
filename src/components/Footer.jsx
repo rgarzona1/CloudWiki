@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import { navItems } from '../data/siteContent'
 
 function Footer() {
@@ -5,19 +6,25 @@ function Footer() {
     <footer className="site-footer">
       <div className="container footer-shell">
         <div className="footer-branding">
-          <a href="#home" className="brand">
+          <Link to="/" className="brand">
             <span className="brand-mark">C</span>
             <span>CloudWiki</span>
-          </a>
+          </Link>
           <p>Una wiki educativa sencilla sobre la computación en la nube.</p>
         </div>
 
         <div className="footer-links" aria-label="Navegación del pie de página">
-          {navItems.map((item) => (
-            <a key={item.label} href={item.href}>
-              {item.label}
-            </a>
-          ))}
+          {navItems.map((item) =>
+            item.href.startsWith('/') ? (
+              <Link key={item.label} to={item.href}>
+                {item.label}
+              </Link>
+            ) : (
+              <a key={item.label} href={item.href}>
+                {item.label}
+              </a>
+            ),
+          )}
         </div>
       </div>
 
